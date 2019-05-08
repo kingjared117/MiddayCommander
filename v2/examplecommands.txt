@@ -1,0 +1,10 @@
+r
+a
+free -h&
+3
+r
+a
+ping -c 10 google.com&
+4
+4
+r

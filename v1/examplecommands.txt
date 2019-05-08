@@ -1,0 +1,13 @@
+a
+free -h
+3
+a
+ping -c 10 google.com
+4
+p
+c
+/home/jared/Desktop/
+p
+a
+qwertyuiop[asdfghjskldxcsvabhunijvmdyqandvsizoufnvonsumfiomvrmjakljfkladjfkjfdklfjldkfjkafjlkdsjfkljfajkfdjkfjk juqweiueqiwouiouqriouieuwriorjioejfkajfkfajkdfskjlafdjklfjkljlffsdljkfdjkljaklfdsfajkljkljklaafsjkladfsjkldsfkjldafkljadsljkfsdk lafsdklafd;kdkla;fkl;akl;fk;lfakl;;klfalkfdlkjfjklajfjklajklfsad
+e

@@ -1,0 +1,155 @@
+Script started on Tue 24 Jan 2017 08:41:33 PM EST
+./middaycommander
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: a
+
+-- Add a command --
+Command to add?: free -h
+Added command free -h
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: 3
+-- free -- 
+              total        used        free      shared  buff/cache   available
+Mem:           7.7G        1.5G        3.4G        241M        2.8G        5.6G
+Swap:          7.9G          0B        7.9G
+
+-- Statistics --
+ Elapsed time: 0 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 145
+
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: a
+
+-- Add a command --
+Command to add?: ping -c 10 google.com
+Added command ping -c 10 google.com
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: 4
+-- ping -- 
+PING google.com (172.217.6.14) 56(84) bytes of data.
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=1 ttl=51 time=39.5 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=2 ttl=51 time=39.7 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=3 ttl=51 time=38.9 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=4 ttl=51 time=38.3 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=5 ttl=51 time=44.9 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=6 ttl=51 time=45.4 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=7 ttl=51 time=39.0 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=8 ttl=51 time=46.6 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=9 ttl=51 time=39.5 ms
+64 bytes from ord38s01-in-f14.1e100.net (172.217.6.14): icmp_seq=10 ttl=51 time=39.2 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 38.319/41.144/46.624/3.021 ms
+
+-- Statistics --
+ Elapsed time: 0 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 252
+
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: p
+
+-- Current Directory --
+Directory /home/jared/Desktop/proj1/mc1
+
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: c
+
+-- Change Directory --
+New Directory: /home/jared/Desktop/
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: p
+
+-- Current Directory --
+Directory /home/jared/Desktop
+
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: a
+
+-- Add a command --
+Command to add?: qwertyuiop[asdfghjskldxcsvabhunijvmdyqandvsizoufnvonsumfiomvrmjakljfkladjfkjfdklfjldkfjkafjlkdsjfkljfajkfdjkfjk juqweiueqiwouiouqriouieuwriorjioejfkajfkfajkdfskjlafdjklfjkljlffsdljkfdjkljaklfdsfajkljkljklaafsjkladfsjkldsfkjldafkljadsljkfsdk lafsdklafd;kdkla;fkl;akl;fk;lfakl;;klfalkfdlkjfjklajfjklajklfsad
+Only accepts 128 characters, try again
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	e. exit			: Leave Mid-Day Commander
+Option?: e
+Logging you out, Commander.
+
+Script done on Tue 24 Jan 2017 08:43:44 PM EST

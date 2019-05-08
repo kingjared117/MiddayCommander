@@ -1,0 +1,163 @@
+Script started on Wed 25 Jan 2017 07:35:07 PM EST
+./middaycommander
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: a
+
+-- Add a command --
+Command to add?: free-f[Kg[K[K -h&
+Added command free -h&
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: 3
+-- free -- 
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?:               total        used        free      shared  buff/cache   available
+Mem:           7.7G        2.8G        683M        857M        4.2G        3.7G
+Swap:          7.9G          0B        7.9G
+r
+
+ --Current Processes --
+[1]	17309	free
+
+-- Statistics --
+ Elapsed time: 0 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 148
+
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: r
+
+ --Current Processes --
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: a
+
+-- Add a command --
+Command to add?: ping -c 10 google.com&
+Added command ping -c 10 google.com&
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: 4
+-- ping -- 
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	5. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: PING google.com (172.217.0.14) 56(84) bytes of data.
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=1 ttl=51 time=49.4 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=2 ttl=51 time=37.3 ms
+4
+-- ping -- 
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	5. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: PING google.com (172.217.0.14) 56(84) bytes of data.
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=1 ttl=51 time=45.2 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=3 ttl=51 time=59.2 ms
+r
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=2 ttl=51 time=46.6 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=4 ttl=51 time=47.7 ms
+
+
+ --Current Processes --
+[2]	17326	ping
+[3]	17327	ping
+G’day, Commander! What command would you like to run?
+	0. whoami		: Prints out the result of the whoami command
+	1. last			: Prints out the result of the last command
+	2. ls			: Prints out the result of a listing on a user-specified path
+	3. free
+	4. ping
+	5. ping
+	a. add command		: Adds a new command to the menu
+	c. change directory	: Changes process working directory
+	p. pwd			: Prints working directory
+	r. running processes 	: Prints list of running processes
+	e. exit			: Leave Mid-Day Commander
+Option?: 64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=3 ttl=51 time=52.0 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=5 ttl=51 time=65.3 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=4 ttl=51 time=40.0 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=6 ttl=51 time=55.7 ms
+e
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=5 ttl=51 time=46.8 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=7 ttl=51 time=47.4 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=6 ttl=51 time=56.5 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=8 ttl=51 time=56.1 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=7 ttl=51 time=37.0 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=9 ttl=51 time=40.6 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=8 ttl=51 time=40.5 ms
+64 bytes from ord38s04-in-f14.1e100.net (172.217.0.14): icmp_seq=10 ttl=51 time=37.7 ms
+
+--- google.com ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9010ms
+rtt min/avg/max/mdev = 37.320/49.684/65.336/8.947 ms
+Logging you out, Commander.                                                                                                                                             
+Script done on Wed 25 Jan 2017 07:36:23 PM EST

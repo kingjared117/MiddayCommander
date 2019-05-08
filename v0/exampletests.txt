@@ -1,0 +1,119 @@
+Script started on Tue 24 Jan 2017 08:24:58 PM EST
+./middaycommander
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: 0
+
+-- Who Am I? --
+jared
+
+-- Statistics --
+ Elapsed time: 0 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 105
+
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: 1
+
+-- Last Logins --
+jared    tty7         :0               Sun Jan 22 14:26    gone - no logout
+reboot   system boot  4.4.0-59-generic Sun Jan 22 14:26   still running
+jared    tty7         :0               Fri Jan 20 17:08 - 18:01  (00:52)
+reboot   system boot  4.4.0-59-generic Fri Jan 20 17:08   still running
+jared    tty7         :0               Thu Jan 19 11:35 - 14:01 (1+02:26)
+reboot   system boot  4.4.0-59-generic Thu Jan 19 11:34 - 14:01 (1+02:26)
+jared    tty7         :0               Thu Jan 19 11:08 - 13:27  (02:19)
+reboot   system boot  4.4.0-59-generic Thu Jan 19 11:06 - 14:01 (1+02:54)
+jared    tty7         :0               Wed Jan 18 18:55 - 11:00  (16:05)
+reboot   system boot  4.4.0-59-generic Wed Jan 18 18:54 - 11:00  (16:06)
+jared    tty7         :0               Tue Jan 17 11:37 - crash (1+07:16)
+reboot   system boot  4.4.0-59-generic Tue Jan 17 11:36 - 11:00 (1+23:24)
+jared    tty7         :0               Tue Jan 17 11:15 - 11:36  (00:20)
+reboot   system boot  4.4.0-57-generic Tue Jan 17 06:15 - 11:36  (05:21)
+reboot   system boot  4.4.0-57-generic Thu Jan 12 13:54 - 14:11 (2+00:17)
+jared    tty7         :0               Mon Jan  9 17:32 - crash (2+20:22)
+reboot   system boot  4.4.0-57-generic Mon Jan  9 16:28 - 14:11 (4+21:43)
+jared    tty7         :0               Fri Jan  6 19:29 - crash (2+20:58)
+reboot   system boot  4.4.0-57-generic Fri Jan  6 19:29 - 14:11 (7+18:42)
+jared    tty7         :0               Wed Jan  4 15:47 - crash (2+03:41)
+reboot   system boot  4.4.0-53-generic Wed Jan  4 15:47 - 14:11 (9+22:24)
+reboot   system boot  4.4.0-53-generic Mon Jan  2 20:28 - 14:11 (11+17:42)
+jared    tty7         :0               Mon Jan  2 16:07 - crash  (04:21)
+
+wtmp begins Mon Jan  2 16:07:21 2017
+
+-- Statistics --
+ Elapsed time: 0 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 234
+
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: 2
+
+-- Directory Listings --
+Arguments?: -a 
+Path?: /
+Texas Instruments-DLP/ lib/                   run/
+bin/                   lib32/                 sbin/
+boot/                  lib64/                 srv/
+cdrom/                 libx32/                sys/
+core                   lost+found/            tmp/
+dev/                   media/                 usr/
+etc/                   mnt/                   var/
+home/                  opt/                   vmlinuz
+initrd.img             proc/                  vmlinuz.old
+initrd.img.old         root/                  
+Path?: /home/jared/
+.				       .gnome	      .steampath
+..				       .gphoto	      .steampid
+2017-01-23-115821_1920x1080_scrot.png  .gtkrc-2.0     stuff
+2017-01-23-221001_1920x1080_scrot.png  .hardinfo      .sudo_as_admin_successful
+.bash_history			       .icons	      Templates
+.bash_logout			       .local	      .thumbnails
+.bashrc				       .mozilla       typescript
+.cache				       Music	      Videos
+.certificates			       .nano	      .viminfo
+.config				       Pictures       .Xauthority
+.dbus				       .pki	      .xscreensaver
+Desktop				       .presage       .xsession-errors
+.dmrc				       .profile       .xsession-errors.old
+Documents			       Public	      .zcompdump
+Downloads			       .pulse-cookie  .zsh_history
+.emacs				       .rnd	      .zshrc
+.emacs.d			       .steam
+.gconf				       Steam
+
+-- Statistics --
+ Elapsed time: 4 millisecond(s)
+Page Faults: 0
+Page Faults (reclaimed): 377
+
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: 3
+That is not a valid option. Please try again
+
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: jared
+That is not a valid option. Please try again
+
+G’day, Commander! What command would you like to run?
+	0. whoami	: Prints out the result of the whoami command
+	1. last	: Prints out the result of the last command
+	2. ls		: Prints out the result of a listing on a user-specified path
+Option?: ^C
+
+Script done on Tue 24 Jan 2017 08:25:37 PM EST
