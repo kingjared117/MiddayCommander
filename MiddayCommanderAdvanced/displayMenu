@@ -1,0 +1,25 @@
+typedef struct Funcs {
+	char name[128];
+	char args[128];
+}
+
+Funcs funcs[32];
+int* defFunc=0;
+
+void printFuncs(Funcs*func,int defFunc){
+     for(i=0;i<defFunc; i++){
+	  printf("%d. %s\n",i+3,*(func+i).path);
+}
+ 
+void addFunc(Funcs *func, int* defFunc, char* name, char* args){
+     while(func[++(*defFunc)].name = name);
+     while(func[*defFunc].args = args);
+}
+
+void execFunc(Funcs func){
+     char *arg[33];
+     int i = 1;
+     arg[0] = strtok(NULL," ",);
+     printf("%s\n",arg[0]);
+     
+     execvp(arg[0],arg);

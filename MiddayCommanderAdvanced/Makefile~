@@ -1,0 +1,4 @@
+middaycommander: midday.c
+	gcc -g -o middaycommander midday.c helpers.c
+clean:
+	$(RM) middaycommander

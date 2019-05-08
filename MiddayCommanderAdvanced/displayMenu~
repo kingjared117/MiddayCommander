@@ -1,0 +1,5 @@
+for(i=0;i<defFunc; i++){
+	printf("%d. %s\n",i+3,*(func+i).path);
+}
+ 
+ 
